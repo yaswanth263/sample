@@ -1,0 +1,22 @@
+java --version = to check java progrm in system
+sudo apt update = updated the version of java
+sudo apt install default-jdk = To install the java in my system
+sudo chown ubuntu:ubuntu -R /opt/
+cd /opt/
+wget link address of tomcat
+tar -xvf past the address
+cd apache-tomcat-10.1.5
+ll
+cd bin
+ll
+cd ..=come out from directory
+ll conf/
+cd webapps/
+cd ..
+ll
+cd ..
+mv apache-tomcat-10.1.5 tomcat10
+cd tomcat10/
+ll
+./bin/startup.sh
+ps -ef | grep to
